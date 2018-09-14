@@ -1,0 +1,32 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paper.js</title>
+    <meta name="description" content="Paper.js on Gomix">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Load the Paper.js library -->
+    <script type="text/javascript" src="paper-full.min.js"></script>
+    <script type="text/javascript" src="data.js"></script>
+    <!-- Load your Paper.js file -->    
+    <script type="text/javascript" src="lz-compress.js"></script>
+    <script type="text/javascript" src="myScript.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Paper.js Demo
+      </h1>
+    </header>
+    <a class="link">Go To </a>
+    <span class="series"></span>
+
+  	<canvas id="myCanvas" resize style="height:100vh;width:100vw"></canvas>
+    
+
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>  
+    <script src="https://button.glitch.me/button.js" data-style="glitch"></script>
+  </body>
+</html>
